@@ -1,0 +1,90 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    min-height:15vh;
+}
+.container
+{
+    padding: 20px;
+    min-height: 70vh;
+}
+footer
+{
+    min-height: 15vh;
+}
+h1
+{
+    /* padding-top: 0.5em !important; */
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+/* MENU */
+nav a 
+{
+    text-transform: uppercase;
+    color: white !important;
+    /* text-shadow: 1px 1px 5px black; */
+}
+#logo_burger
+{
+    background-color: white;
+    padding: 5px;
+}
+
+/* PRODUITS */
+
+.text_description
+{
+    text-align: justify;
+    /* font-family: 'Source Serif Pro', serif; */
+}
+h3
+{
+    font-weight: 400;
+}
+
+/* FORMULAIRE */
+.all_forms
+{
+    width: 50%;
+    margin: 50px auto 0px;
+}
+
+
+/* PANIER */
+.ligne_total
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* COMMANDE */
+.command
+{
+    /* border: 2px solid #6E6E6E; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #185494;
+}
+.command h4 
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #185494;
+}
+.command p 
+{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#footer *
+{
+    color: white !important;
+}
